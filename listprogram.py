@@ -11,6 +11,7 @@ class List:
     def delete(self):
         x = self.list1.pop()
         print("Element deleted is", x)
+        print("")
 
     def display(self):
         print("The list is", self.list1)
