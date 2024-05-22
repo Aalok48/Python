@@ -15,6 +15,7 @@ class List:
 
     def display(self):
         print("The list is", self.list1)
+        print("")
 
 if __name__=='__main__':
     list1 = List([])
