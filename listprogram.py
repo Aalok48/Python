@@ -7,6 +7,7 @@ class List:
     def append(self):
         element = input("Enter to append to the list: ")
         self.list1.append(element)
+        print("")
 
     def delete(self):
         x = self.list1.pop()
