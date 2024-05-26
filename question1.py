@@ -31,8 +31,8 @@ class Student:
     def display_student_info(self):
         print("Student Name:", self.name)
         print("Student ID:", self.ID)
-        print("Grades:", self.grades)
-        print("Average Grade:", self.calculate_average_grade())
+        print("Grades of the student:", self.grades)
+        print("Average Grade: ", self.calculate_average_grade())
 
 if __name__ == '__main__':
     name = input("Enter your name: ")
