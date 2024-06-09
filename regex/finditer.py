@@ -11,4 +11,4 @@ for match in find:
     print(match)
     print(match.group())
     print(match.start())  # match.start() returns the start index of every pattern matched
-    print(match.end())
+    print(match.end())    # match.end() returns the end index of every pattern matched
